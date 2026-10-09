@@ -152,17 +152,4 @@ Live source attribution was verified as
 `Noor-Book.com عمدة الفقه في المذهب الحنبلي.pdf`, source ID
 `c66f7298-42bb-4a13-b1ae-d5cfc2a92c44`, lines 1439–1461. BM25's excerpt was
 original extracted text. The first result discusses the status of an
-`أمّ الولد`; it should not be treated as directly answering the inheritance
-question without further evidence. A separate exact search for the heading
-`باب أحكام أمهات الأولاد` found two occurrences in that file, at lines 1446 and
-2711. Before line-overlap deduplication was added, the combined run displayed
-the overlapping heading and BM25 passage separately; the code now merges
-overlapping source lines and labels the result with both methods.
-
-The tests in this repository use a controlled fixture. The live Open WebUI API
-was also used to verify synchronization and hybrid search against the current
-authenticated Knowledge Base. One actual CLI re-sync completed with
-`files_seen: 2` and `indexed_passages: 1372`. English and mixed-language
-behavior is covered by fixture tests; those query categories and a live
-offline/network-disconnected run have not yet been measured against this
 Knowledge Base.
