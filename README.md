@@ -147,8 +147,6 @@ correctly.
 | Alternative terminology | Not evaluated against a live Knowledge Base | — | — | — | — |
 | Arabic spelling variant / inflection | Not evaluated against a live Knowledge Base | — | — | — | — |
 | English query | Not evaluated against a live Knowledge Base | — | — | — | — |
-| Mixed Arabic-English query | Not evaluated against a live Knowledge Base | — | — | — | — |
-| «هل ترث الأمة سيدها؟» | Related “أمّ الولد” passage retrieved; direct inheritance ruling not established by the top result | 1 | No exact-phrase match | Yes: hybrid can include exact heading hits alongside BM25 | Ranks 2–4 are unrelated or weak lexical matches |
 
 Live source attribution was verified as
 `Noor-Book.com عمدة الفقه في المذهب الحنبلي.pdf`, source ID
